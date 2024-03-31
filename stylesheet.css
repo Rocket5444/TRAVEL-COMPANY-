@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit';
+    background: linear-gradient(#ffdad5,#fff7f9);
+}
+
+header {
+    
+    border: 1px solid white;
+    background: linear-gradient(#ffdad5,#fff7f9);
+    font-family: 'Outfit';
+    max-width: 100%;
+    margin: auto;
+    height: 65px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.header h1{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}   
+    
+section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    margin: auto;
+}
+
+#Menubar {
+    background-color: #a363aa;
+    max-width: 100%;
+    margin: auto;
+} 
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #a363aa;;
+    max-width: 100%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.slider-menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #555;
+}
+section#contact-social {
+    margin-bottom: 20px;
+  }
+  section#contact-social h2{
+    color: #a363aa;
+  }
+  section#contact-social p{
+    color: #a363aa;
+  }
+  section#contact-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section#contact-social ul li {
+    margin: 20px;
+  }
+  
+  section#contact-social ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  section#contact-social ul li i {
+    font-size: 30px;
+  }
+  
+  section#contact-social ul li a:hover {
+    color: #007bff;
+  }
+  
+  section#contact-social h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  section#contact-social p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  section#contact-social ul li i img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  section#contact-social nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section#contact-social nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tour-packages {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .tour-packages section#tour-packages {
+    background-color: linear-gradient(#ffdad5,#fff7f9);
+    padding: 20px;
+  }
+  
+  .tour-packages .tour-package {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tour-packages .tour-package h3 {
+    font-family: 'Outfit';
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #a363aa;
+  }
+  .tour-packages .tour-package hr {
+            border: none;
+            width: 120px;
+            height: 5px;
+            background-color: #a363aa;
+  }
+  
+  .tour-packages .tour-package p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-packages .tour-package p:last-child {
+    font-weight: 600;
+    color: #a363aa;
+  }
+  
+  .tour-packages section#tour-packages h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section form input[type="submit"] {
+    background-color: #e27b18;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  section form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #e27b18;
+    border: 1px solid #e27b18;
+  }
+  
+  section nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  section nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  section nav a:hover {
+    color: #e27b18;
+  }
+  
+  section nav a.active {
+    color: #e27b18;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section ul li {
+    margin-bottom: 20px;
+  }
+  
+  section ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  section ul li a:hover {
+    color: #007bff;
+  }
+  
+  section ul li i {
+    font-size: 16px;
+  }
+  .video {
+    width: 800;
+    margin-top: 20px;
+    z-index: 0;
+    position: relative;
+  }
+  
+  .video iframe {
+    width: 100%;
+    height: 450;
+  }
+  
+  .slideshow-container {
+    z-index: 1;
+    position: relative;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .video {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .video iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .contactno {
+    font-family: 'Outfit';
+    color: #a363aa;
+  }
+
+  .tour-package img {
+    width: 300px;
+    height: 300px;
+  }
